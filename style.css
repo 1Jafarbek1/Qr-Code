@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    height: 100vh;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 10px;
+}
+
+.card {
+    background-color: aliceblue;
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.card img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    border: 2px solid black;
+}
+
+.my-name h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.cont {
+    margin: 30px;
+    margin-left: 45px;
+    width: 200px;
+}
+
+.cont i {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.cont p {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.my-contact {
+    display: flex;
+}
+
+.cont a{
+    text-decoration: none;
+    color: black;
+}
+
+.cont a:hover {
+    color: brown;
+}
+
+.cont a i:hover {
+    color: brown;
+}
+
+@media only screen and (max-width: 1300px) {
+    .container {
+        background-color: antiquewhite;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .card {
+        background-color: aliceblue;
+        width: 800px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .card img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        border: 2px solid black;
+    }
+    
+    .my-name h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .cont {
+        margin: 30px;
+        margin-left: 45px;
+        width: 200px;
+    }
+    
+    .cont i {
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    
+    .cont p {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .my-contact {
+        display: flex;
+    }
+    
+    .cont a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .cont a:hover {
+        color: brown;
+    }
+    
+    .cont a i:hover {
+        color: brown;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        background-color: antiquewhite;
+        height: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .card {
+        background-color: aliceblue;
+        width: 320px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .card img {
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        border: 2px solid black;
+    }
+    
+    .my-name h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .cont {
+        margin: 30px;
+        margin-left: 45px;
+        width: 200px;
+    }
+    
+    .cont i {
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    
+    .cont p {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .my-contact {
+        display: block;
+    }
+
+    .my-contact p {
+        margin-bottom: 30px;
+    }
+    
+    .cont a{
+        text-decoration: none;
+        color: black;
+        margin: 30px 0;
+    }
+    
+    .cont a:hover {
+        color: brown;
+    }
+    
+    .cont a i:hover {
+        color: brown;
+    }
+}
